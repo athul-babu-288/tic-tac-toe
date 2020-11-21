@@ -1,0 +1,85 @@
+<html>
+
+    <head>
+        <title>Tic Tac Toe</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet"> 
+        <script src="assets/jquery-2.1.1.js"></script>
+        <script src="assets/bootstrap.min.js"></script>
+        <script src="assets/algo_main_js.js"></script>
+        <style>
+            #hed{
+                background-color: #2f95d7;
+                height: 70px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: #dbe2ed;">
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Congratulations . . . . ! </h4>
+                    </div>
+                    <div class="modal-body">
+                        <center><h2><b><p id="con"></p><b></h2></center><br>
+                                        <br>
+                                        <center><a href="index.html" class="btn btn-info">RETRY</a></center>
+                                        </div>
+                                        <div class="modal-footer">
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <!-- Modal -->
+
+                                        <div class="col-lg-12">
+                                            <div class="row" id="hed">
+                                                <h2 class="col-lg-offset-1" style="color:white;margin-left: 30px;"><b>Tic Tac Toe</b></h2>
+                                               
+                                            </div>   
+                                            <div class="row">
+                                                <div class="col-lg-6 col-lg-offset-3">   
+                                                    <div id="hid" style="padding: 15px;margin-left:100px;margin-top:10px;  ">
+                                                        <h3 id="ply1" class="box-title"></h3><br>
+                                                        <img class="tik" style="cursor: pointer;" rel="0#0" src="assets/default.png">
+                                                        <img class="tik"  style="cursor: pointer;" rel="0#1" src="assets/default.png">
+                                                        <img style="cursor: pointer;" class="tik"  rel="0#2" src="assets/default.png"><br>
+                                                        <img class="tik"  style="cursor: pointer;" rel="1#0" src="assets/default.png">
+                                                        <img class="tik" rel="1#1" style="cursor: pointer;" src="assets/default.png">
+                                                        <img class="tik" rel="1#2" style="cursor: pointer;" src="assets/default.png"><br>
+                                                        <img class="tik" rel="2#0" style="cursor: pointer;" src="assets/default.png">
+                                                        <img class="tik" rel="2#1" style="cursor: pointer;" src="assets/default.png">
+                                                        <img class="tik" rel="2#2" style="cursor: pointer;" src="assets/default.png"></a><br>
+                                                    </div>
+                                                    <div id="sho"  style='padding: 100px;'>                    
+                                                        <div class="box box-primary">
+                                                            <div class="box-header">
+                                                                <h3 class="box-title">Player Details</h3><br>
+                                                            </div>
+                                                            <div class="box-body">
+                                                                <div class="form-group">                      
+                                                                    <input type="text" class="form-control" id="pl1" placeholder="Player-1 Name" value="">
+                                                                </div>
+                                                                <div class="form-group">                      
+                                                                    <input type="text" class="form-control" id="pl2" placeholder="Player-2 Name" value="">
+                                                                </div>                
+                                                            </div>
+                                                            <div class="box-footer">
+                                                                <a style="cursor:pointer; " id="sumit" class="btn btn-danger col-lg-offset-5">SUBMIT</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div> 
+                                            <div class="row">
+                                                <footer id="hed" style=" margin-top: 10%;">
+                                                </footer>
+                                            </div>
+
+                                        </div>
+                                        </body>
+                                        </html>
